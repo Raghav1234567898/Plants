@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "gilroy";
+}
+#im{
+    height: 75%;
+    width: 80%;
+    background-color: white;  
+    position: relative;
+
+}
+#im i{
+    font-size: 40px;
+    bottom: 16%;
+    position: absolute;
+    right: 5%;
+}
+#im h1{
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+    filter: drop-shadow(16px 16px 16px black);
+}
+#im img{
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    width: 75%;
+    left: 10%;
+    filter: drop-shadow( 20px 20px 25px black);
+}
+#info{
+    height: 25%;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+#info1{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    position: relative;
+}
+#info1 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+#info1 h3{
+    font-size: 45px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    color: white;
+}
+#info1 p{
+    position: absolute;
+    top: 35%;
+    width: 66%;
+    left: 11%;
+    color: white;
+}
+#info2{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lol{
+    width: 50%;
+    height: 45%;
+    background-color: transparent;
+    position: relative;
+}
+#info2 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+}
+.lol i{
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    font-size: 30px;
+    color: white;
+}
+.lol i:hover{
+    cursor: pointer;
+}
+.lol a{
+    list-style: none;
+    position: absolute;
+    top: 19%;
+    left: 37%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.lol p{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    color: white;
+}
+.lol p:hover{
+    cursor: pointer;
+}
+#to{
+    height: 25%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+#to img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(16px 20px 16px black);
+}
+#to1{
+    height: 25%;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(10%);
+}
+#to1 h6{
+    color: wheat;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+#lat{
+    height: 75%;
+    width: 20%;
+    background-color: white;  
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+#lat i{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+#lat img{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 55%;
+}
+#lat li{
+    color: black;
+    margin-top: 13%;
+    list-style: none;
+    margin-left: 5%;
+}
+#lat a{
+    text-decoration: none;
+    color: black;
+}
+#tol{
+    height: 8%;
+    width: 15%;
+    background-color: white;
+    position: absolute;
+    right: 19%;
+    bottom: 15%;
+}
+#tol i{
+    color: black;
+    font-size: 40px;
+    bottom: 0%;
+}
